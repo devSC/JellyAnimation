@@ -33,7 +33,7 @@
     self.jelly.center = CGPointMake(self.jelly.center.x, from);
     
     [self.jelly startAnimationFrom:from to:to];
-    [UIView animateWithDuration:1 delay:0 usingSpringWithDamping:0.85 initialSpringVelocity:0 options:0 animations:^{
+    [UIView animateWithDuration:2 delay:0 usingSpringWithDamping:0.85 initialSpringVelocity:0 options:0 animations:^{
         self.jelly.center = CGPointMake(self.jelly.center.x, to);
     } completion:^(BOOL finished) {
         [self.jelly completeAnimation];

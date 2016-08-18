@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66D509B700BAF5FD721A6907 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B11F95B2575D6CFA9FA130 /* libPods.a */; };
+		C8CB23351D65851100FC47C9 /* MaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CB23341D65851100FC47C9 /* MaskView.m */; };
+		C8CB23381D658AAD00FC47C9 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C8CB23371D658AAD00FC47C9 /* ViewController3.m */; };
 		FE3225C61C5DCFCB00B65285 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3225C51C5DCFCB00B65285 /* main.m */; };
 		FE3225C91C5DCFCB00B65285 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3225C81C5DCFCB00B65285 /* AppDelegate.m */; };
 		FE3225CC1C5DCFCB00B65285 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3225CB1C5DCFCB00B65285 /* ViewController.m */; };
@@ -17,6 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31374E522AEA68110888265B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3BF227343EC297D112DD0605 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		69B11F95B2575D6CFA9FA130 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8CB23331D65851100FC47C9 /* MaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskView.h; sourceTree = "<group>"; };
+		C8CB23341D65851100FC47C9 /* MaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskView.m; sourceTree = "<group>"; };
+		C8CB23361D658AAD00FC47C9 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		C8CB23371D658AAD00FC47C9 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		FE3225C11C5DCFCB00B65285 /* JellyAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3225C51C5DCFCB00B65285 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE3225C71C5DCFCB00B65285 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D509B700BAF5FD721A6907 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FD6EF5868CDE8E9A24AE65B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BF227343EC297D112DD0605 /* Pods.debug.xcconfig */,
+				31374E522AEA68110888265B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0B9AB718DF6ADA208CF0B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B11F95B2575D6CFA9FA130 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FE3225B81C5DCFCB00B65285 = {
 			isa = PBXGroup;
 			children = (
 				FE3225C31C5DCFCB00B65285 /* JellyAnimation */,
 				FE3225C21C5DCFCB00B65285 /* Products */,
+				5FD6EF5868CDE8E9A24AE65B /* Pods */,
+				C0B9AB718DF6ADA208CF0B7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +95,12 @@
 				FE3225C81C5DCFCB00B65285 /* AppDelegate.m */,
 				FE3225CA1C5DCFCB00B65285 /* ViewController.h */,
 				FE3225CB1C5DCFCB00B65285 /* ViewController.m */,
+				C8CB23361D658AAD00FC47C9 /* ViewController3.h */,
+				C8CB23371D658AAD00FC47C9 /* ViewController3.m */,
 				FE3225DB1C5DD0D600B65285 /* JellyView.h */,
 				FE3225DC1C5DD0D600B65285 /* JellyView.m */,
+				C8CB23331D65851100FC47C9 /* MaskView.h */,
+				C8CB23341D65851100FC47C9 /* MaskView.m */,
 				FE3225CD1C5DCFCC00B65285 /* Main.storyboard */,
 				FE3225D01C5DCFCC00B65285 /* Assets.xcassets */,
 				FE3225D21C5DCFCC00B65285 /* LaunchScreen.storyboard */,
@@ -91,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE3225D81C5DCFCC00B65285 /* Build configuration list for PBXNativeTarget "JellyAnimation" */;
 			buildPhases = (
+				159DF9A2C8D9864A68C54568 /* Check Pods Manifest.lock */,
 				FE3225BD1C5DCFCB00B65285 /* Sources */,
 				FE3225BE1C5DCFCB00B65285 /* Frameworks */,
 				FE3225BF1C5DCFCB00B65285 /* Resources */,
+				855467BD96035DFCB08F60C3 /* Embed Pods Frameworks */,
+				DF160DAF1739F627EEC9A115 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +186,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		159DF9A2C8D9864A68C54568 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		855467BD96035DFCB08F60C3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF160DAF1739F627EEC9A115 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE3225BD1C5DCFCB00B65285 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -157,7 +242,9 @@
 				FE3225CC1C5DCFCB00B65285 /* ViewController.m in Sources */,
 				FE3225DD1C5DD0D600B65285 /* JellyView.m in Sources */,
 				FE3225C91C5DCFCB00B65285 /* AppDelegate.m in Sources */,
+				C8CB23351D65851100FC47C9 /* MaskView.m in Sources */,
 				FE3225C61C5DCFCB00B65285 /* main.m in Sources */,
+				C8CB23381D658AAD00FC47C9 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +354,7 @@
 		};
 		FE3225D91C5DCFCC00B65285 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF227343EC297D112DD0605 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JellyAnimation/Info.plist;
@@ -278,6 +366,7 @@
 		};
 		FE3225DA1C5DCFCC00B65285 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31374E522AEA68110888265B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JellyAnimation/Info.plist;
@@ -306,6 +395,7 @@
 				FE3225DA1C5DCFCC00B65285 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
